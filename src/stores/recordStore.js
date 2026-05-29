@@ -2,6 +2,7 @@ import { defineStore } from "pinia";
 import { ref, computed } from "vue";
 
 const URL_BACKEND = "https://proyectoweb-mgrx.onrender.com"
+const VITE_API_ERL = "fronted-web-bice.vercel.app"
 
 export const useRecordsStore = defineStore('registros', () => {
     const pacientes = ref([]);
