@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 import { ref, computed } from "vue";
 
-const URL_BACKEND = import.meta.env.VITE_API_URL
+const URL_BACKEND = "https://proyectoweb-mgrx.onrender.com"
 
 export const useRecordsStore = defineStore('registros', () => {
     const pacientes = ref([]);
